@@ -43,12 +43,13 @@ class MainActivity : ComponentActivity() {
         val subtractButton: Button = findViewById(R.id.SubsButton)
         val resetButton: Button = findViewById(R.id.ResetButton)
         val diceImage: ImageView = findViewById(R.id.dicepic)
+        diceImage.setImageResource(R.drawable.dice_1)
 
 
         resetButton.setOnClickListener {
             score = 0
             diceValue = 0
-            diceImage.setImageResource(R.drawable.dice_6)
+            diceImage.setImageResource(R.drawable.dice_1)
             changeScore(scoreView, score)
         }
 
