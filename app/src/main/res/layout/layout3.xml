@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3A4A4"
+    android:backgroundTint="#FA928A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ScoreView"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_weight="1"
+                android:background="#FFEB3B"
+                android:text="@string/ScoreView"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="InefficientWeight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/dicepic"
+                android:layout_width="764dp"
+                android:layout_height="165dp"
+                android:layout_weight="1"
+                android:background="#ED8989"
+                android:backgroundTint="#F39393"
+                android:src="@drawable/dice_6"
+                tools:ignore="ContentDescription,InefficientWeight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/AddButton"
+                android:layout_width="139dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#FFEB3B"
+                android:text="@string/AddButton"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle,VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/SubsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="73dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFEB3B"
+                android:text="@string/SubsButton"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle,VisualLintButtonSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:ignore="InefficientWeight">
+
+            <Button
+                android:id="@+id/RollButton"
+                android:layout_width="wrap_content"
+                android:layout_height="86dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFEB3B"
+                android:text="@string/RollButton"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle,NestedWeights,VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/ResetButton"
+                android:layout_width="wrap_content"
+                android:layout_height="82dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFEB3B"
+                android:text="@string/ResetButton"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle,VisualLintButtonSize" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

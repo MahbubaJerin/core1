@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Assignment core 1</string>
+    <string name="Headline">Roll the Dice</string>
+    <string name="ScoreView">Score</string>
+    <string name="RollButton">Roll</string>
+    <string name="AddButton">Add</string>
+    <string name="SubsButton">Substract</string>
+    <string name="ResetButton">Reset</string>
+    <string name="congratulations_message">Congratulations! You Won!</string>
+
+
+
+</resources>

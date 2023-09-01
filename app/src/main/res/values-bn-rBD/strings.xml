@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ludu</string>
+    <string name="Headline">Chokka Ghuran</string>
+    <string name="ScoreView">Folafol</string>
+    <string name="RollButton">Chokka</string>
+    <string name="AddButton">Jog</string>
+    <string name="SubsButton">Biyog</string>
+    <string name="ResetButton">Punoray</string>
+    <string name="congratulations_message">Joss! Apni Jitechen!</string>
+</resources>
